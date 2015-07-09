@@ -1,15 +1,15 @@
 {
   "name": "iOSCustomControlSet",
   "version": "0.1.0",
-  "summary": "A short description of iOSCustomControlSet.",
-  "description": "                       An optional longer description of iOSCustomControlSet\n\n                       * Markdown format.\n                       * Don't worry about the indent, we strip it!\n",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/iOSCustomControlSet",
+  "summary": "A utility lib for iOS custom UI control",
+  "description": "                       A utility lib for iOS custom UI control\n\n                       * Markdown format.\n                       * Don't worry about the indent, we strip it!\n",
+  "homepage": "https://github.com/jiakai-lian/iOSCustomControlSet",
   "license": "MIT",
   "authors": {
-    "jiakailian": "jiakai.lian@gmail.com"
+    "Jiakai Lian": "jiakai.lian@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/iOSCustomControlSet.git",
+    "git": "https://github.com/jiakai-lian/iOSCustomControlSet.git",
     "tag": "0.1.0"
   },
   "platforms": {
