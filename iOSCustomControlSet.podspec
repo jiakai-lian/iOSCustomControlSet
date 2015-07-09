@@ -19,8 +19,8 @@ Pod::Spec.new do |s|
                        DESC
   s.homepage         = "https://github.com/jiakai-lian/iOSCustomControlSet"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
-  s.license          = ‘MIT’
-  s.author           = { "jiakailian" => "jiakai.lian@gmail.com" }
+  s.license          = "MIT"
+  s.author           = { "Jiakai Lian" => "jiakai.lian@gmail.com" }
   s.source           = { :git => "https://github.com/jiakai-lian/iOSCustomControlSet.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
