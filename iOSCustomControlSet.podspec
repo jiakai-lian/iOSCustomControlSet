@@ -10,7 +10,7 @@
 Pod::Spec.new do |s|
   s.name             = "iOSCustomControlSet"
   s.version          = "0.1.0"
-  s.summary          = "A short description of iOSCustomControlSet."
+  s.summary          = "A utility lib for iOS custom UI control"
   s.description      = <<-DESC
                        An optional longer description of iOSCustomControlSet
 
