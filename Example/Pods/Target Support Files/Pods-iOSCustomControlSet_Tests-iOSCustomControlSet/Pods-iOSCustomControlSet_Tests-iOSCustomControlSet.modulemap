@@ -1,0 +1,6 @@
+framework module iOSCustomControlSet {
+  umbrella header "Pods-iOSCustomControlSet_Tests-iOSCustomControlSet-umbrella.h"
+
+  export *
+  module * { export * }
+}
