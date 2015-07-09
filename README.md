@@ -1,5 +1,7 @@
 # iOSCustomControlSet
 
+A utility lib for iOS custom UI control
+
 [![CI Status](http://img.shields.io/travis/jiakailian/iOSCustomControlSet.svg?style=flat)](https://travis-ci.org/jiakailian/iOSCustomControlSet)
 [![Version](https://img.shields.io/cocoapods/v/iOSCustomControlSet.svg?style=flat)](http://cocoapods.org/pods/iOSCustomControlSet)
 [![License](https://img.shields.io/cocoapods/l/iOSCustomControlSet.svg?style=flat)](http://cocoapods.org/pods/iOSCustomControlSet)

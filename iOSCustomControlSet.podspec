@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.version          = "0.1.0"
   s.summary          = "A utility lib for iOS custom UI control"
   s.description      = <<-DESC
-                       An optional longer description of iOSCustomControlSet
+                       A utility lib for iOS custom UI control
 
                        * Markdown format.
                        * Don't worry about the indent, we strip it!
