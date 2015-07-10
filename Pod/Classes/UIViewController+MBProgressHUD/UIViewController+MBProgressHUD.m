@@ -11,7 +11,7 @@
 
 @implementation UIViewController (MBProgressHUD)
 
-- (MBProgressHUD *)MB_showProgessHUDwithTitle:(NSString *)title andMessage:(NSString *)message
+- (MBProgressHUD *)MB_showProgressHUDwithTitle:(NSString *)title andMessage:(NSString *)message
 {
     MBProgressHUD *HUD = [[MBProgressHUD alloc] initWithView:self.view];
     HUD.labelText = title;
@@ -23,7 +23,7 @@
     return HUD;
 }
 
-- (void)MB_hideProgessHUD:(MBProgressHUD *)HUD
+- (void)MB_hideProgressHUD:(MBProgressHUD *)HUD
 {
     [HUD hide:YES];
 }
