@@ -40,5 +40,10 @@
     self.layer.cornerRadius = cornerRadius;
 }
 
+- (CGFloat)cornerRadius
+{
+    return self.layer.cornerRadius;
+}
+
 
 @end

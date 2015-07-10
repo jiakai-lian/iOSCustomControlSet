@@ -40,8 +40,18 @@
     [self.layer setBorderColor:borderColor.CGColor];
 }
 
+- (UIColor *)borderColor
+{
+    return [UIColor colorWithCGColor: self.layer.borderColor];
+}
+
 -(void)setBorderWidth:(NSInteger)borderWidth{
     [self.layer setBorderWidth:borderWidth];
+}
+
+- (NSInteger)borderWidth
+{
+    return self.layer.borderWidth;
 }
 
 
