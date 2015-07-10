@@ -19,7 +19,7 @@ iOSCustomControlSet is available through [CocoaPods](http://cocoapods.org). To i
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'iOSCustomControlSet', :git =>  'https://github.com/jiakai-lian/iOSCustomControlSet.git', :tag => '0.2.0'
+pod 'iOSCustomControlSet', :git =>  'https://github.com/jiakai-lian/iOSCustomControlSet.git', :tag => '0.3.0'
 ```
 
 ## Author
