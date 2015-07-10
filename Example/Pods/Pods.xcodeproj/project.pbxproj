@@ -46,6 +46,10 @@
 		3AA79EEA41600630DDDFB104 /* EXPMatchers+beGreaterThanOrEqualTo.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E4BD9182754A68E2424D91 /* EXPMatchers+beGreaterThanOrEqualTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		3AB3C2C085CE62358629156F /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3A838EA01EAD6A5C4E6163 /* FBSnapshotTestCase.m */; };
 		3B9E1DE818F6084C42071364 /* UIView+Shadow.h in Headers */ = {isa = PBXBuildFile; fileRef = 31CEA79C11D75D9058054640 /* UIView+Shadow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E2EB8E51B4F81FF003DEFDA /* AutoGrowingCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E2EB8E11B4F81FF003DEFDA /* AutoGrowingCollectionView.h */; };
+		3E2EB8E61B4F81FF003DEFDA /* AutoGrowingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2EB8E21B4F81FF003DEFDA /* AutoGrowingCollectionView.m */; };
+		3E2EB8E71B4F81FF003DEFDA /* AutoGrowingTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E2EB8E31B4F81FF003DEFDA /* AutoGrowingTextView.h */; };
+		3E2EB8E81B4F81FF003DEFDA /* AutoGrowingTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2EB8E41B4F81FF003DEFDA /* AutoGrowingTextView.m */; };
 		4284FACA12C0388427B313CB /* UIView+CornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE1DAA84F7E46F6F670AAB3 /* UIView+CornerRadius.m */; };
 		4294E3668AD5FADE503C7821 /* EXPMatchers+beIdenticalTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 423839490BEA857CF284E8D1 /* EXPMatchers+beIdenticalTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		46DE51563E37524F310DE519 /* EXPFloatTuple.h in Headers */ = {isa = PBXBuildFile; fileRef = 9094A935C83E8ED567816EF3 /* EXPFloatTuple.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -297,6 +301,10 @@
 		3AD24521FFC5EFF64FBF0DE4 /* Pods-iOSCustomControlSet_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOSCustomControlSet_Tests-resources.sh"; sourceTree = "<group>"; };
 		3CE5B0962139CE8213971C25 /* EXPMatchers+endWith.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+endWith.h"; path = "Expecta/Matchers/EXPMatchers+endWith.h"; sourceTree = "<group>"; };
 		3D9C340E415BCFBA02963141 /* EXPMatchers+beSubclassOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beSubclassOf.h"; path = "Expecta/Matchers/EXPMatchers+beSubclassOf.h"; sourceTree = "<group>"; };
+		3E2EB8E11B4F81FF003DEFDA /* AutoGrowingCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoGrowingCollectionView.h; sourceTree = "<group>"; };
+		3E2EB8E21B4F81FF003DEFDA /* AutoGrowingCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoGrowingCollectionView.m; sourceTree = "<group>"; };
+		3E2EB8E31B4F81FF003DEFDA /* AutoGrowingTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoGrowingTextView.h; sourceTree = "<group>"; };
+		3E2EB8E41B4F81FF003DEFDA /* AutoGrowingTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoGrowingTextView.m; sourceTree = "<group>"; };
 		3E9F45D25EB6EEA386525AE2 /* Pods-iOSCustomControlSet_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOSCustomControlSet_Example-umbrella.h"; sourceTree = "<group>"; };
 		41599668C9464EEBED9A9776 /* Pods-iOSCustomControlSet_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSCustomControlSet_Example.release.xcconfig"; sourceTree = "<group>"; };
 		41C089B3185D2B570F333D65 /* iOSCustomControlSet.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSCustomControlSet.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -733,6 +741,17 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
+		3E2EB8E01B4F81FF003DEFDA /* AutoGrowingViews */ = {
+			isa = PBXGroup;
+			children = (
+				3E2EB8E11B4F81FF003DEFDA /* AutoGrowingCollectionView.h */,
+				3E2EB8E21B4F81FF003DEFDA /* AutoGrowingCollectionView.m */,
+				3E2EB8E31B4F81FF003DEFDA /* AutoGrowingTextView.h */,
+				3E2EB8E41B4F81FF003DEFDA /* AutoGrowingTextView.m */,
+			);
+			path = AutoGrowingViews;
+			sourceTree = "<group>";
+		};
 		4C8CB95C66A66AED559F682C /* Expecta+Snapshots */ = {
 			isa = PBXGroup;
 			children = (
@@ -789,6 +808,7 @@
 		7403728641FB44B05498EA62 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				3E2EB8E01B4F81FF003DEFDA /* AutoGrowingViews */,
 				FE5F3638417A50F502B111DA /* UIView+Border.h */,
 				02C0B973162BFC014730585C /* UIView+Border.m */,
 				558FE2C521FE034C62B33D85 /* UIView+CornerRadius.h */,
@@ -1009,6 +1029,8 @@
 				1932B5D869E774ACE33025E7 /* Pods-iOSCustomControlSet_Example-iOSCustomControlSet-umbrella.h in Headers */,
 				F8EA7C4211F6EBE5097E3976 /* UIView+Border.h in Headers */,
 				0872EBB785DA410DB9CC2315 /* UIView+CornerRadius.h in Headers */,
+				3E2EB8E71B4F81FF003DEFDA /* AutoGrowingTextView.h in Headers */,
+				3E2EB8E51B4F81FF003DEFDA /* AutoGrowingCollectionView.h in Headers */,
 				CE27454011CB1196FFCF7621 /* UIView+Shadow.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1281,9 +1303,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E2EB8E81B4F81FF003DEFDA /* AutoGrowingTextView.m in Sources */,
 				D46A7D0F7FB411FAE2D55399 /* Pods-iOSCustomControlSet_Example-iOSCustomControlSet-dummy.m in Sources */,
 				DFD80E7F1DD87EA80A6AF70B /* UIView+Border.m in Sources */,
 				4284FACA12C0388427B313CB /* UIView+CornerRadius.m in Sources */,
+				3E2EB8E61B4F81FF003DEFDA /* AutoGrowingCollectionView.m in Sources */,
 				E0DA7CBCDEAB8A5252D896A1 /* UIView+Shadow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
