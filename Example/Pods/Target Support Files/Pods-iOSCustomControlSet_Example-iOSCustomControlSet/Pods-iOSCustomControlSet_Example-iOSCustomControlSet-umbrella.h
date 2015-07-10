@@ -1,5 +1,7 @@
 #import <UIKit/UIKit.h>
 
+#import "AutoGrowingCollectionView.h"
+#import "AutoGrowingTextView.h"
 #import "UIView+Border.h"
 #import "UIView+CornerRadius.h"
 #import "UIView+Shadow.h"
