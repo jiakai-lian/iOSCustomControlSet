@@ -89,7 +89,7 @@
     }
 
     // Center vertically
-    // We're  supposed to have a maximum height contstarint in code for the text view which will makes the intrinsicSide eventually higher then the height of the text view - if we had enough text.
+    // We're  supposed to have a maximum height constraint in code for the text view which will makes the intrinsicSide eventually higher then the height of the text view - if we had enough text.
     // This code only center vertically the text view while the context size is smaller/equal to the text view frame.
     if (self.intrinsicContentSize.height <= self.bounds.size.height)
     {
