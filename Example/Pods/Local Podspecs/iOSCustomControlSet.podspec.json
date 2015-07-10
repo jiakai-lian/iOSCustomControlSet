@@ -21,5 +21,10 @@
     "iOSCustomControlSet": [
       "Pod/Assets/*.png"
     ]
+  },
+  "dependencies": {
+    "MBProgressHUD": [
+      "~> 0.9.1"
+    ]
   }
 }

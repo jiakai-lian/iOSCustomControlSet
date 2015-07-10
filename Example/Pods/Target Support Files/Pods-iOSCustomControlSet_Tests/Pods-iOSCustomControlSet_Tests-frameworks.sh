@@ -51,6 +51,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework 'Expecta.framework'
   install_framework 'Expecta_Snapshots.framework'
   install_framework 'FBSnapshotTestCase.framework'
+  install_framework 'MBProgressHUD.framework'
   install_framework 'Specta.framework'
   install_framework 'iOSCustomControlSet.framework'
 fi
@@ -58,6 +59,7 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework 'Expecta.framework'
   install_framework 'Expecta_Snapshots.framework'
   install_framework 'FBSnapshotTestCase.framework'
+  install_framework 'MBProgressHUD.framework'
   install_framework 'Specta.framework'
   install_framework 'iOSCustomControlSet.framework'
 fi
