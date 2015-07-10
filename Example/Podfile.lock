@@ -4,7 +4,7 @@ PODS:
     - Expecta (~> 1.0)
     - FBSnapshotTestCase (~> 1.8)
   - FBSnapshotTestCase (1.8.1)
-  - iOSCustomControlSet (0.2.0)
+  - iOSCustomControlSet (0.3.0)
   - Specta (1.0.2)
 
 DEPENDENCIES:
@@ -22,7 +22,7 @@ SPEC CHECKSUMS:
   Expecta: 32604574add2c46a36f8d2f716b6c5736eb75024
   Expecta+Snapshots: ca15bfb57e7a0f78f86c7699c2c54ffacfa4ad2a
   FBSnapshotTestCase: 3dc3899168747a0319c5278f5b3445c13a6532dd
-  iOSCustomControlSet: f74c38b5838da65be4573a6aeec4d5cfe17ceb60
+  iOSCustomControlSet: 713d206200ef995d7b29b541de59be3d8b7bca27
   Specta: 9cec98310dca411f7c7ffd6943552b501622abfe
 
 COCOAPODS: 0.37.1
