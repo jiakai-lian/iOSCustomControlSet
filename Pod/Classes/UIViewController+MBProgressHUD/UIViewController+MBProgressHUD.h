@@ -11,8 +11,8 @@
 
 @interface UIViewController (MBProgressHUD)
 
-- (MBProgressHUD *)showProgessHUDwithTitle:(NSString *)title andMessage:(NSString *)message;
+- (MBProgressHUD *)MB_showProgessHUDwithTitle:(NSString *)title andMessage:(NSString *)message;
 
-- (void)hideProgessHUD:(MBProgressHUD *)HUD;
+- (void)MB_hideProgessHUD:(MBProgressHUD *)HUD;
 
 @end

@@ -12,7 +12,7 @@
 
 @implementation UIViewController (AlertMessage)
 
-- (void)showAlertMessageWithTitle:(NSString *)title andMessage:(NSString *)message
+- (void)AM_showAlertMessageWithTitle:(NSString *)title andMessage:(NSString *)message
 {
     UIAlertController *alertController = [UIAlertController
             alertControllerWithTitle:title
@@ -33,9 +33,9 @@
 
 }
 
-- (void)showAlertMessageWithTitle:(NSString *)title andError:(NSError *)error
+- (void)AM_showAlertMessageWithTitle:(NSString *)title andError:(NSError *)error
 {
-    [self showAlertMessageWithTitle:title andMessage:[error localizedDescription]];
+    [self AM_showAlertMessageWithTitle:title andMessage:[error localizedDescription]];
 }
 
 @end
