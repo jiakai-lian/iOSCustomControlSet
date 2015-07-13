@@ -18,8 +18,22 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 iOSCustomControlSet is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
+To fetch the whole pod
 ```ruby
 pod 'iOSCustomControlSet', :git =>  'https://github.com/jiakai-lian/iOSCustomControlSet.git', :tag => '0.4.0'
+```
+
+For each subspecs
+```ruby
+pod 'iOSCustomControlSet/UIView+Border', :git =>  'https://github.com/jiakai-lian/iOSCustomControlSet.git'
+pod 'iOSCustomControlSet/UIView+CornerRadius', :git =>  'https://github.com/jiakai-lian/iOSCustomControlSet.git'
+pod 'iOSCustomControlSet/UIViewController+AlertMessage', :git =>  'https://github.com/jiakai-lian/iOSCustomControlSet.git'
+pod 'iOSCustomControlSet/UIViewcontroller+MBProgressHUD', :git =>  'https://github.com/jiakai-lian/iOSCustomControlSet.git'
+```
+
+For one or multi subspecs
+```ruby
+pod 'iOSCustomControlSet', :subspecs => ['UIView+Border','UIView+CornerRadius','UIViewController+AlertMessage','UIViewcontroller+MBProgressHUD'], :git =>  'https://github.com/jiakai-lian/iOSCustomControlSet.git'
 ```
 
 ## Author
