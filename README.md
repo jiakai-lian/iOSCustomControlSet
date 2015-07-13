@@ -25,7 +25,7 @@ To Use these controls, simply add them to nib, storyboard with valid min, max he
 
 ##5. UIViewController+AlertMessage
 
-##6. UIViewController+MBProgressHud
+##6. UIViewController+MBProgressHUD
 
 ## Usage
 
