@@ -38,6 +38,7 @@ Pod::Spec.new do |s|
     s.dependency 'MBProgressHUD', '~> 0.9.1'
 
     s.subspec 'UIView+Border' do |border|
+        border.source_files = 'Pod/Classes/UIView+Border/*'
     end
 
     s.subspec 'UIView+CornerRadius' do |radius|
