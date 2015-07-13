@@ -20,11 +20,12 @@ it, simply add the following line to your Podfile:
 
 To fetch the whole pod
 ```ruby
-pod 'iOSCustomControlSet', :git =>  'https://github.com/jiakai-lian/iOSCustomControlSet.git', :tag => '0.4.0'
+pod 'iOSCustomControlSet', :git =>  'https://github.com/jiakai-lian/iOSCustomControlSet.git'
 ```
 
 For each subspecs
 ```ruby
+pod 'iOSCustomControlSet/AutoGrowingViews', :git =>  'https://github.com/jiakai-lian/iOSCustomControlSet.git'
 pod 'iOSCustomControlSet/UIView+Border', :git =>  'https://github.com/jiakai-lian/iOSCustomControlSet.git'
 pod 'iOSCustomControlSet/UIView+CornerRadius', :git =>  'https://github.com/jiakai-lian/iOSCustomControlSet.git'
 pod 'iOSCustomControlSet/UIViewController+AlertMessage', :git =>  'https://github.com/jiakai-lian/iOSCustomControlSet.git'
@@ -33,7 +34,7 @@ pod 'iOSCustomControlSet/UIViewcontroller+MBProgressHUD', :git =>  'https://gith
 
 For one or multi subspecs
 ```ruby
-pod 'iOSCustomControlSet', :subspecs => ['UIView+Border','UIView+CornerRadius','UIViewController+AlertMessage','UIViewcontroller+MBProgressHUD'], :git =>  'https://github.com/jiakai-lian/iOSCustomControlSet.git'
+pod 'iOSCustomControlSet', :subspecs => ['AutoGrowingViews','UIView+Border','UIView+CornerRadius','UIViewController+AlertMessage','UIViewController+MBProgressHUD'], :git =>  'https://github.com/jiakai-lian/iOSCustomControlSet.git'
 ```
 
 ## Author
