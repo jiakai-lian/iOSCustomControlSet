@@ -36,4 +36,17 @@ Pod::Spec.new do |s|
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
     s.dependency 'MBProgressHUD', '~> 0.9.1'
+
+    s.subspec 'UIView+Border' do |border|
+    end
+
+    s.subspec 'UIView+CornerRadius' do |radius|
+    end
+
+    s.subspec 'UIViewController+AlertMessage' do |alert|
+    end
+
+    s.subspec 'UIViewController+MBProgressHUD' do |hud|
+        hud.dependency 'MBProgressHUD', '~> 0.9.1'
+    end
 end
