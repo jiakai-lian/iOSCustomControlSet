@@ -9,7 +9,7 @@ A utility lib for iOS custom UI controls
 
 this pod includes few sub modules. People can fetch any of them as needed.
 
-#1. AutoGrowing Control Set
+##1. AutoGrowing Control Set
 
 A set of controls are able to increase height from min to max as defined. Currently, it only contains a text view and a collection view. 
 To Use these controls, simply add them to nib, storyboard with valid min, max height and a dummy height constraint.
@@ -18,14 +18,14 @@ To Use these controls, simply add them to nib, storyboard with valid min, max he
 ######Max Height Scenario
 ![Max Height](https://raw.githubusercontent.com/jiakai-lian/iOSCustomControlSet/master/autogrow%2Bmax.png)
 
-#2. UIView+Border
-#3. UIView+CornerRadius
-#4. UIView+Shadow
+##2. UIView+Border
+##3. UIView+CornerRadius
+##4. UIView+Shadow
 ![Border+Radius+Shadow](https://raw.githubusercontent.com/jiakai-lian/iOSCustomControlSet/master/border%2Bradius%2Bshadow.png)
 
-#5. UIViewController+AlertMessage
+##5. UIViewController+AlertMessage
 
-#6. UIViewController+MBProgressHud
+##6. UIViewController+MBProgressHud
 
 ## Usage
 
