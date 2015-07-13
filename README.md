@@ -13,7 +13,9 @@ this pod includes few sub modules. People can fetch any of them as needed.
 
 A set of controls are able to increase height from min to max as defined. Currently, it only contains a text view and a collection view. 
 To Use these controls, simply add them to nib, storyboard with valid min, max height and a dummy height constraint.
+##Min Height Scenario
 ![Min Height](https://github.com/jiakai-lian/iOSCustomControlSet/blob/master/autogrow%2Bmin.png)
+##Max Height Scenario
 ![Max Height](https://github.com/jiakai-lian/iOSCustomControlSet/blob/master/autogrow%2Bmax.png)
 
 2. UIView+Border
