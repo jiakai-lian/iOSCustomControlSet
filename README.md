@@ -1,11 +1,25 @@
 # iOSCustomControlSet
 
-A utility lib for iOS custom UI control
+A utility lib for iOS custom UI controls
 
 [![CI Status](http://img.shields.io/travis/jiakailian/iOSCustomControlSet.svg?style=flat)](https://travis-ci.org/jiakailian/iOSCustomControlSet)
 [![Version](https://img.shields.io/cocoapods/v/iOSCustomControlSet.svg?style=flat)](http://cocoapods.org/pods/iOSCustomControlSet)
 [![License](https://img.shields.io/cocoapods/l/iOSCustomControlSet.svg?style=flat)](http://cocoapods.org/pods/iOSCustomControlSet)
 [![Platform](https://img.shields.io/cocoapods/p/iOSCustomControlSet.svg?style=flat)](http://cocoapods.org/pods/iOSCustomControlSet)
+
+this pod includes few sub modules. People can fetch any of them as needed.
+
+1. AutoGrowing Control Set
+A set of controls are able to increase height from min to max as defined. Currently, it only contains a text view and a collection view. 
+To Use these controls, simply add them to nib, storyboard with min, max height and a dummy height constraint.
+
+2. UIView+Border
+3. UIView+CornerRadius
+4. UIView+Shadow
+
+5. UIViewController+AlertMessage
+
+6. UIViewController+MBProgressHud
 
 ## Usage
 
