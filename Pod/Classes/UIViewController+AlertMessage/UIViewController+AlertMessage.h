@@ -10,7 +10,7 @@
 
 @interface UIViewController (AlertMessage)
 
-- (void)AM_showAlertMessageWithTitle:(NSString *)title andMessage:(NSString *)message;
+- (void)am_showAlertMessageWithTitle:(NSString *)title andMessage:(NSString *)message;
 
-- (void)AM_showAlertMessageWithTitle:(NSString *)title andError:(NSError *)error;
+- (void)am_showAlertMessageWithTitle:(NSString *)title andError:(NSError *)error;
 @end
