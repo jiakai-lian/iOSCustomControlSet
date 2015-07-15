@@ -52,6 +52,8 @@
 		3A218A4566AFA0F21E332943 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F92C4FF245EA428138D0EC9 /* Foundation.framework */; };
 		3AADF53CC42BF1234C3EB96F /* UIView+Border.m in Sources */ = {isa = PBXBuildFile; fileRef = 12CEAA8E46F9577FFE352320 /* UIView+Border.m */; };
 		3B02113EEE97FF4D300FFD8B /* EXPMatchers+beGreaterThan.h in Headers */ = {isa = PBXBuildFile; fileRef = CC3D775031B0B06E7A551943 /* EXPMatchers+beGreaterThan.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E7859401B54C636005DA87E /* NSArray+BlockFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E78593E1B54C636005DA87E /* NSArray+BlockFilter.h */; };
+		3E7859411B54C636005DA87E /* NSArray+BlockFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E78593F1B54C636005DA87E /* NSArray+BlockFilter.m */; };
 		41CBD8E549A349628849DE63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F92C4FF245EA428138D0EC9 /* Foundation.framework */; };
 		482107DD229164067F73AC01 /* UIView+Shadow.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EDE194C32DA3C01C9D60173 /* UIView+Shadow.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4A43E17B0E0F78425274890A /* UIViewController+MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E5086EEAE94C654EB887D76 /* UIViewController+MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -347,6 +349,8 @@
 		3D51EDDA7876C963B755C807 /* iOSCustomControlSet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iOSCustomControlSet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DC87714329716AA0206886C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E5FB8C0389A0BCC6128A9D0 /* Pods-iOSCustomControlSet_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iOSCustomControlSet_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3E78593E1B54C636005DA87E /* NSArray+BlockFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+BlockFilter.h"; sourceTree = "<group>"; };
+		3E78593F1B54C636005DA87E /* NSArray+BlockFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+BlockFilter.m"; sourceTree = "<group>"; };
 		401DE2C92C7E5D8FF545262B /* Pods-iOSCustomControlSet_Example-iOSCustomControlSet-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOSCustomControlSet_Example-iOSCustomControlSet-prefix.pch"; sourceTree = "<group>"; };
 		40653C2B5D412627E584FB1E /* EXPMatchers+raise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+raise.h"; path = "Expecta/Matchers/EXPMatchers+raise.h"; sourceTree = "<group>"; };
 		41F2C8EC3AC4E00241A95A7A /* EXPMatchers+beIdenticalTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beIdenticalTo.m"; path = "Expecta/Matchers/EXPMatchers+beIdenticalTo.m"; sourceTree = "<group>"; };
@@ -735,6 +739,15 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		3E78593D1B54C61D005DA87E /* NSArray+BlockFilter */ = {
+			isa = PBXGroup;
+			children = (
+				3E78593E1B54C636005DA87E /* NSArray+BlockFilter.h */,
+				3E78593F1B54C636005DA87E /* NSArray+BlockFilter.m */,
+			);
+			path = "NSArray+BlockFilter";
+			sourceTree = "<group>";
+		};
 		44517BB420CA948D1E807DE8 /* Pods-iOSCustomControlSet_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -809,6 +822,7 @@
 		6BD7DC7A1759466A49D4BAA2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				3E78593D1B54C61D005DA87E /* NSArray+BlockFilter */,
 				6AC7F56D5FB825A1DF02D4D1 /* AutoGrowingViews */,
 				7D4D2960A748069F1A3F0B93 /* UIView+Border */,
 				E56E154628A21583838AF308 /* UIView+CornerRadius */,
@@ -1114,6 +1128,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E7859401B54C636005DA87E /* NSArray+BlockFilter.h in Headers */,
 				0D9E3D1D5FF5BEBF9D6C1564 /* AutoGrowingCollectionView.h in Headers */,
 				4DD64120EF3EB572059D9D65 /* AutoGrowingTextView.h in Headers */,
 				12C1DE7F6BFAD95FAE973DB0 /* Pods-iOSCustomControlSet_Example-iOSCustomControlSet-umbrella.h in Headers */,
@@ -1668,6 +1683,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E7859411B54C636005DA87E /* NSArray+BlockFilter.m in Sources */,
 				25DDC04DCE5900C82CF97B42 /* AutoGrowingCollectionView.m in Sources */,
 				54B3B6BCAAE2835E457DD556 /* AutoGrowingTextView.m in Sources */,
 				FFB855EF13DC609C86377DBC /* Pods-iOSCustomControlSet_Example-iOSCustomControlSet-dummy.m in Sources */,
