@@ -7,5 +7,21 @@
 #import "DDLog.h"
 
 
+//#ifdef DEBUG
+//static const DDLogLevel ddLogLevel = DDLogLevelVerbose;
+//#else
+//static const DDLogLevel ddLogLevel = DDLogLevelWarn;
+//#endif
+
+
+
+//- (void)initDDLog {
+//    [DDLog addLogger:[DDASLLogger sharedInstance] ];
+//    
+//    id<DDLogger> consoleLogger = [DDTTYLogger sharedInstance];
+//    consoleLogger.logFormatter = [[DDEnhancedFormatter alloc] init];
+//    [DDLog addLogger:consoleLogger];
+//}
+
 @interface DDEnhancedFormatter : NSObject<DDLogFormatter>
 @end
