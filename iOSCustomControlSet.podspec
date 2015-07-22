@@ -38,33 +38,33 @@ Pod::Spec.new do |s|
   # s.dependency 'MBProgressHUD', '~> 0.9.1'
 
     s.subspec 'AutoGrowingViews' do |autogrowing|
-#autogrowing.version = "0.7.0"
+        autogrowing.version = "0.7.0"
         autogrowing.source_files = 'Pod/Classes/AutoGrowingViews/*'
     end
 
     s.subspec 'UIView+Border' do |border|
-#border.version = "0.7.0"
+        border.version = "0.7.0"
         border.source_files = 'Pod/Classes/UIView+Border/*'
     end
 
     s.subspec 'UIView+CornerRadius' do |radius|
-#radius.version = "0.7.0"
+        radius.version = "0.7.0"
         radius.source_files = 'Pod/Classes/UIView+CornerRadius/*'
     end
 
     s.subspec 'UIViewController+AlertMessage' do |alert|
-#alert.version = "0.7.0"
+        alert.version = "0.7.0"
         alert.source_files = 'Pod/Classes/UIViewController+AlertMessage/*'
     end
 
     s.subspec 'UIViewController+MBProgressHUD' do |hud|
-#hud.version = "0.7.0"
+        hud.version = "0.7.0"
         hud.source_files = 'Pod/Classes/UIViewController+MBProgressHUD/*'
         hud.dependency 'MBProgressHUD', '~> 0.9.1'
     end
 
     s.subspec 'DDLog' do |log|
-#log.version = "0.7.0"
+    log.version = "0.7.0"
     log.source_files = 'Pod/Classes/DDLog/*'
     log.dependency 'CocoaLumberjack'
     end
