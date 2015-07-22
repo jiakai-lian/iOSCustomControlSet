@@ -35,6 +35,9 @@
 
 - (UIViewController *)topViewControllerWithRootViewController:(UIViewController *)rootViewController
 {
+    static NSString * CLASS_NAME_SWCONTROLLER = @"SWRevealViewController";
+    static NSString * KEY_PATH_SWCONTROLLER_FRONT_CONTROLLER = @"frontViewController";
+    
     if ([rootViewController isKindOfClass:[UITabBarController class]])
     {
         UITabBarController *tabBarController = (UITabBarController *) rootViewController;
@@ -50,9 +53,12 @@
         UIViewController *presentedViewController = rootViewController.presentedViewController;
         return [self topViewControllerWithRootViewController:presentedViewController];
     }
-    else
+    //fix issue: when use with SWRevealViewController, the method cannot find the right top view controller
+    else if ([NSStringFromClass([rootViewController class]) isEqualToString:CLASS_NAME_SWCONTROLLER] && [rootViewController valueForKeyPath:KEY_PATH_SWCONTROLLER_FRONT_CONTROLLER])
     {
-        return rootViewController;
+        return  [self topViewControllerWithRootViewController:[rootViewController valueForKeyPath:KEY_PATH_SWCONTROLLER_FRONT_CONTROLLER]];
     }
+    
+    return rootViewController;
 }
 @end
