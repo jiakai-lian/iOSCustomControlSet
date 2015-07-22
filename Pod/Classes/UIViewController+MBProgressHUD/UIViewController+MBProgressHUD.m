@@ -13,19 +13,18 @@
 
 - (MBProgressHUD *)mb_showProgressHUDwithTitle:(NSString *)title andMessage:(NSString *)message
 {
-    MBProgressHUD *HUD = [[MBProgressHUD alloc] initWithView:self.view];
+    MBProgressHUD *HUD = [MBProgressHUD showHUDAddedTo:self.topViewController.view animated:YES];
     HUD.labelText = title;
     HUD.detailsLabelText = message;
     HUD.mode = MBProgressHUDModeIndeterminate;
-    [[self topViewController].view addSubview:HUD];
-
-    [HUD show:YES];
+    
     return HUD;
 }
 
 - (void)mb_hideProgressHUD:(MBProgressHUD *)HUD
 {
     [HUD hide:YES];
+//    [MBProgressHUD hideAllHUDsForView:self.topViewController.view animated:YES];
 }
 
 #pragma mark - find top view controller
