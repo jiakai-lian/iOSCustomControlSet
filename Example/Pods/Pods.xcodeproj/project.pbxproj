@@ -55,6 +55,8 @@
 		3E7859401B54C636005DA87E /* NSArray+BlockFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E78593E1B54C636005DA87E /* NSArray+BlockFilter.h */; };
 		3E7859411B54C636005DA87E /* NSArray+BlockFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E78593F1B54C636005DA87E /* NSArray+BlockFilter.m */; };
 		41CBD8E549A349628849DE63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F92C4FF245EA428138D0EC9 /* Foundation.framework */; };
+		4681DA6D1B5F25DA008C99E3 /* DDEnhancedFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 4681DA6B1B5F25DA008C99E3 /* DDEnhancedFormatter.h */; };
+		4681DA6E1B5F25DA008C99E3 /* DDEnhancedFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4681DA6C1B5F25DA008C99E3 /* DDEnhancedFormatter.m */; };
 		482107DD229164067F73AC01 /* UIView+Shadow.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EDE194C32DA3C01C9D60173 /* UIView+Shadow.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4A43E17B0E0F78425274890A /* UIViewController+MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E5086EEAE94C654EB887D76 /* UIViewController+MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4B57D6165FD2C3347F7D2CF4 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = CB4F0D76265372103F13B17F /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -361,6 +363,8 @@
 		4448F0CB7AE936B5F66792DB /* Pods-iOSCustomControlSet_Tests-FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOSCustomControlSet_Tests-FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		44D203116F019A82E6623EDC /* Pods-iOSCustomControlSet_Tests-Expecta+Snapshots.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSCustomControlSet_Tests-Expecta+Snapshots.xcconfig"; sourceTree = "<group>"; };
 		4506CCA6CBB767BC451275AE /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/UIImage+Compare.m"; sourceTree = "<group>"; };
+		4681DA6B1B5F25DA008C99E3 /* DDEnhancedFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDEnhancedFormatter.h; sourceTree = "<group>"; };
+		4681DA6C1B5F25DA008C99E3 /* DDEnhancedFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDEnhancedFormatter.m; sourceTree = "<group>"; };
 		4699579AF8AC434DAEECE79D /* EXPMatchers+postNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+postNotification.h"; path = "Expecta/Matchers/EXPMatchers+postNotification.h"; sourceTree = "<group>"; };
 		482D01CEB500D0975BCD9C74 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		495CEE9CE00EC204C49F5558 /* Pods-iOSCustomControlSet_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOSCustomControlSet_Example-resources.sh"; sourceTree = "<group>"; };
@@ -767,6 +771,15 @@
 			path = "Target Support Files/Pods-iOSCustomControlSet_Tests";
 			sourceTree = "<group>";
 		};
+		4681DA6A1B5F25DA008C99E3 /* DDLog */ = {
+			isa = PBXGroup;
+			children = (
+				4681DA6B1B5F25DA008C99E3 /* DDEnhancedFormatter.h */,
+				4681DA6C1B5F25DA008C99E3 /* DDEnhancedFormatter.m */,
+			);
+			path = DDLog;
+			sourceTree = "<group>";
+		};
 		477E1F2FB75ED64DE8CD5099 = {
 			isa = PBXGroup;
 			children = (
@@ -822,6 +835,7 @@
 		6BD7DC7A1759466A49D4BAA2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				4681DA6A1B5F25DA008C99E3 /* DDLog */,
 				3E78593D1B54C61D005DA87E /* NSArray+BlockFilter */,
 				6AC7F56D5FB825A1DF02D4D1 /* AutoGrowingViews */,
 				7D4D2960A748069F1A3F0B93 /* UIView+Border */,
@@ -1133,6 +1147,7 @@
 				4DD64120EF3EB572059D9D65 /* AutoGrowingTextView.h in Headers */,
 				12C1DE7F6BFAD95FAE973DB0 /* Pods-iOSCustomControlSet_Example-iOSCustomControlSet-umbrella.h in Headers */,
 				60BC1976ADD0447D4FBF1BFE /* UIView+Border.h in Headers */,
+				4681DA6D1B5F25DA008C99E3 /* DDEnhancedFormatter.h in Headers */,
 				ED440D4EFA16C5E265CDA507 /* UIView+CornerRadius.h in Headers */,
 				482107DD229164067F73AC01 /* UIView+Shadow.h in Headers */,
 				505319D1B4A0DA251B82C26C /* UIViewController+AlertMessage.h in Headers */,
@@ -1683,6 +1698,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4681DA6E1B5F25DA008C99E3 /* DDEnhancedFormatter.m in Sources */,
 				3E7859411B54C636005DA87E /* NSArray+BlockFilter.m in Sources */,
 				25DDC04DCE5900C82CF97B42 /* AutoGrowingCollectionView.m in Sources */,
 				54B3B6BCAAE2835E457DD556 /* AutoGrowingTextView.m in Sources */,
