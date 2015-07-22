@@ -64,8 +64,8 @@ Pod::Spec.new do |s|
     end
 
     s.subspec 'DDLog' do |log|
-    hud.version = "0.6.0"
-    hud.source_files = 'Pod/Classes/DDLog/*'
-    hud.dependency 'CocoaLumberjack'
+    log.version = "0.6.0"
+    log.source_files = 'Pod/Classes/DDLog/*'
+    log.dependency 'CocoaLumberjack'
     end
 end
